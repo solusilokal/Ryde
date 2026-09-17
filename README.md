@@ -30,7 +30,10 @@ Terdapat **2 cara mudah** untuk melihat preview website ini:
 ```
 rental motor/
 ├── public/
-│   └── Gemini_Generated_Image_37hvdz37hvdz37hv.jpg   # Gambar logo/profil Ryde Rental
+│   ├── logo-ryde.png                                # Logo profil Ryde Rental
+│   ├── background-ryde.jpg                          # Background visual website
+│   ├── gambarSEO.png                                # Gambar kartu preview SEO & WhatsApp
+│   └── motor-*.webp                                 # Foto armada motor HD
 ├── src/
 │   ├── App.jsx                                      # Komponen utama React
 │   ├── index.css                                    # Konfigurasi Tailwind & Google Fonts Plus Jakarta Sans
@@ -38,13 +41,14 @@ rental motor/
 ├── dist/                                            # Hasil kompilasi produksi Vite
 ├── standalone.html                                  # File mandiri lengkap (bisa dibuka langsung tanpa server)
 ├── preview.bat                                      # Script launcher 1-klik untuk Windows
+├── deploy_github.bat                                # Script deploy 1-klik ke GitHub
 ├── index.html                                       # File HTML utama untuk Vite dev & build
 ├── build_standalone.cjs                             # Skrip bundler esbuild untuk standalone.html
 ├── package.json                                     # Konfigurasi dependensi npm & skrip
 ├── vite.config.js                                   # Konfigurasi Vite server & build
 ├── tailwind.config.js                               # Konfigurasi Tailwind CSS
 ├── postcss.config.js                                # Konfigurasi PostCSS
-└── ryde_rental_app.tsx                              # Source code awal komponen Ryde
+└── ryde_rental_app.tsx                              # Source code komponen Ryde
 ```
 
 ---
